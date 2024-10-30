@@ -2,6 +2,13 @@
 <html>
 <html lang="en-US">
 <head>
+   <script>
+    function myFunction() {
+    document.getElementById("kblock").style.font-color ; red
+    }
+   </script>
+   
+   
     <link rel="stylesheet" href="joo.css">
     <title>KPalikka</title>
 </head>
@@ -11,8 +18,8 @@
     <h3>Kolmonen</h3>
     <p>tosi pitkä parakraaffi</p>
     
-    <p>Tyhjät tagit html:ssä ovat itsestään sulkevia eivätkä tarvitse loppuun erillistä tagin sulkemista varten</p>
-     <p>Case-sensitive tarkoittaa sitä että esimerkiksi tietyissä ohjelmointikielissä arvot "Arvo" ja "arvo" ovat 2 erillistä arvoa sillä 1 merkki on kirjoitettu isolla</p>
+    <p id="kblock">Tyhjät tagit html:ssä ovat itsestään sulkevia eivätkä tarvitse loppuun erillistä tagin sulkemista varten</p>
+     <p id="kblock">Case-sensitive tarkoittaa sitä että esimerkiksi tietyissä ohjelmointikielissä arvot "Arvo" ja "arvo" ovat 2 erillistä arvoa sillä 1 merkki on kirjoitettu isolla</p>
 
     <img src="https://pbs.twimg.com/media/Ga9kz_mWsAADGTS?format=jpg&name=small">
     <h4>^^^^</h4>
@@ -24,6 +31,13 @@
 <p><a href="https://www.salpaus.fi/" target="_blank">Koulun sivut</a></p>
 <p><a href="\Users\edumikohak\zzz\KPalikka\portfolio.html">Portfolio</a></p>
 
+<form>
+    <input type="button" onclick="myFunction()" id="skädäm" name="nappi1">
+    <label for="skädäm">Hmm?</label>
+</form>  
+
+
+
 <div>Testailua</div>
 
 
@@ -31,7 +45,7 @@
  div {
     width: 900;
     text-align: center;
-    outline:green;
+    outline:auto;
     outline-style: auto;
     outline-width: 10px;
     outline-color:green;
