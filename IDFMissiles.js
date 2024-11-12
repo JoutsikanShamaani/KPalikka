@@ -1,1 +1,2 @@
-document.getElementById("kblock").style.font-color = red;
+document.getElementById("kblock").style.font-color ; red;
+
